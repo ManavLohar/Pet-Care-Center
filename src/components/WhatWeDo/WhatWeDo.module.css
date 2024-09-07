@@ -1,0 +1,73 @@
+.whatWeDo {
+  display: flex;
+  background: url("../assets/what_bg.png") no-repeat top center / cover;
+  align-items: center;
+  padding: 4% 12%;
+  color: white;
+}
+
+.whatWeDo > img {
+    max-width: 40vw;
+}
+
+.whatWeDo_content {
+    padding-right: 5rem;
+}
+
+.whatWeDo_content > h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.whatWeDo_content > h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+
+.whatWeDo_content > p {
+    font-family: sans-serif;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.whatWeDo_content > button {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    border-radius: 10px;
+    color: #3c78b3;
+}
+
+@media (max-width: 850px) {
+    .whatWeDo {
+        flex-direction: column;
+        text-align: center;
+        padding: 6% 12%;
+    }
+    .whatWeDo_content {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .whatWeDo {
+        padding: 4%;
+    }
+    .whatWeDo_content {
+        margin-top: 2rem;
+    }
+    .whatWeDo_content > h1 {
+        font-size: 2.5rem;
+    }
+    .whatWeDo_content > h2 {
+        font-size: 1.5rem;
+    }
+    .whatWeDo > img {
+        max-width: 60vw;
+    }
+}

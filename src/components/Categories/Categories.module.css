@@ -1,0 +1,32 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4% 10%;
+    background-color: #f08a10;
+}
+
+.categories_heading {
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.categories_heading > h1 {
+    font-size: 3rem;
+}
+
+.categories_items {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.swiper-slide {
+    margin: 0 !important;
+}
+
+@media (max-width: 850px) {
+    .categories_heading > h1 {
+        font-size: 2.5rem;
+    }
+}

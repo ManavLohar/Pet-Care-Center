@@ -1,0 +1,57 @@
+.contact {
+  display: flex;
+  background: url("../assets/newsletter_bg.png") no-repeat center left / cover;
+  padding: 6% 4%;
+  width: 100%;
+  justify-content: flex-end;
+  .contactBox {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    text-align: center;
+    h2 {
+      font-size: 2rem;
+      color: white;
+      margin-bottom: 1rem;
+    }
+    .inputArea {
+      display: flex;
+      flex-direction: column;
+      padding: 0 15px;
+      justify-content: center;
+      align-items: center;
+      justify-self: end;
+      input,
+      textarea,
+      button {
+        margin: 5px 0;
+        padding: 15px;
+        outline: none;
+        border-radius: 50px;
+        border: none;
+        width: 100%;
+        font-family: sans-serif;
+        font-size: 1rem;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-family: sans-serif;
+        color: white;
+        background-color: rgb(25, 117, 214);
+        width: max-content;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .contactBox {
+    .inputArea {
+      input, textarea, button {
+        padding: 10px;
+      }
+    }
+  }
+}
