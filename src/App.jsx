@@ -13,6 +13,14 @@ import WhatWeDo from "./components/WhatWeDo/WhatWeDo";
 import News from "./components/News/News";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
+import BottomToTop from "./components/BottomToTop/BottomToTop";
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+// import your icons
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
 
 const App = () => {
   return (
@@ -31,8 +39,10 @@ const App = () => {
       <News />
       <ContactUs />
       <Footer />
+      <BottomToTop />
     </>
   );
 };
 
 export default App;
+library.add(fab, fas, far);

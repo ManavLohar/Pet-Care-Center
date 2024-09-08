@@ -5,7 +5,7 @@
   text-align: center;
   /* justify-content: center; */
   align-items: center;
-  padding: 5% 0;
+  padding: 5% 2%;
 }
 
 .gallery_heading {
@@ -13,12 +13,14 @@
 }
 
 .gallery_heading > h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #3c78b3;
+  margin-bottom: 0.5rem;
 }
 
 .gallery_heading > p {
-  font-size: 14px;
+  font-size: .9rem;
+  font-family: "Poppins", sans-serif;
   color: rgb(85, 85, 85);
 }
 
@@ -44,7 +46,7 @@
 
 @media (max-width: 850px) {
   .gallery_heading > h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 }
 

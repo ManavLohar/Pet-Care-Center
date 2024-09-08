@@ -17,13 +17,14 @@
         h2 {
           font-size: 2rem;
           color: #3c78b3;
-          font-family: sans-serif;
+          font-family: "Poppins", sans-serif;
           margin-bottom: 1rem;
         }
         p {
-          font-family: sans-serif;
+          font-family: "Poppins", sans-serif;
           color: rgb(71, 71, 71);
           line-height: 1.5rem;
+          font-size: 0.9rem;
         }
       }
       :nth-child(2) {
@@ -31,7 +32,7 @@
         flex-direction: column;
         input,
         button {
-          font-family: sans-serif;
+          font-family: "Poppins", sans-serif;
           font-size: 1rem;
           padding: 1rem;
           border-radius: 50px;
@@ -57,7 +58,7 @@
           border: none;
           outline: none;
           color: white;
-          font-family: sans-serif;
+          font-family: "Poppins", sans-serif;
         }
       }
       :nth-child(4) {
@@ -85,6 +86,11 @@
       align-items: center;
       .footer_left {
         margin-right: 0;
+        :nth-child(3) {
+          button {
+            padding: 8px 12px;
+          }
+        }
       }
     }
   }
@@ -101,9 +107,14 @@
           display: flex;
           flex-direction: column;
           align-items: center;
-          h2{
+          h2 {
             font-size: 1.5rem;
           }
+        }
+      }
+      .footer_right {
+        > img {
+          width: 180px;
         }
       }
     }

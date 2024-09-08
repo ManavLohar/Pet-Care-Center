@@ -21,7 +21,7 @@ const Header = () => {
       <div className={style.navBtn}>
         <ul
           className={style.navLists}
-          style={{ height: click ? "22rem" : "0" }}
+          style={{ height: click ? "21rem" : "0" }}
         >
           <li onClick={triggeredClick}>
             <a href="#Home">Home</a>

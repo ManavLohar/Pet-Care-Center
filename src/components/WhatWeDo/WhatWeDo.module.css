@@ -2,7 +2,7 @@
   display: flex;
   background: url("../assets/what_bg.png") no-repeat top center / cover;
   align-items: center;
-  padding: 4% 12%;
+  padding: 4% 8%;
   color: white;
 }
 
@@ -15,21 +15,22 @@
 }
 
 .whatWeDo_content > h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
 }
 
 .whatWeDo_content > h2 {
     font-size: 2rem;
     font-weight: lighter;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 1rem;
 }
 
 .whatWeDo_content > p {
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 1.8rem;
     margin-bottom: 1rem;
+    font-size: .9rem;
 }
 
 .whatWeDo_content > button {
@@ -38,7 +39,7 @@
     font-weight: bold;
     outline: none;
     border: none;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
     border-radius: 10px;
     color: #3c78b3;
 }
@@ -68,6 +69,6 @@
         font-size: 1.5rem;
     }
     .whatWeDo > img {
-        max-width: 60vw;
+        max-width: 70vw;
     }
 }
