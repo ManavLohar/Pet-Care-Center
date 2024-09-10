@@ -86,6 +86,9 @@
       align-items: center;
       .footer_left {
         margin-right: 0;
+        .left_content {
+          padding: 1rem 0;
+        }
         :nth-child(3) {
           button {
             padding: 8px 12px;

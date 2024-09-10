@@ -50,6 +50,7 @@ const Wrapper = styled.section`
     align-items: center;
     color: white;
     cursor: pointer;
+    z-index: 99;
   }
   .arrow {
     animation: upDown 1s linear infinite alternate-reverse;
